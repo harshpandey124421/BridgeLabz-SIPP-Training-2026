@@ -1,0 +1,5 @@
+-- Subtopic: DML - Insert Initial COVID Data
+USE covid_db;
+
+INSERT INTO covid_cases (state, date, time, recoveries, deaths, confirmed_cases)
+VALUES ('India', '2020-03-15', '10 AM', 50, 2, 100);
