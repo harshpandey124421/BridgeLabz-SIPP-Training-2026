@@ -1,2 +1,0 @@
-CREATE INDEX idx_country_date ON covid_cases (country, date);
-CREATE INDEX idx_date ON covid_cases (date);

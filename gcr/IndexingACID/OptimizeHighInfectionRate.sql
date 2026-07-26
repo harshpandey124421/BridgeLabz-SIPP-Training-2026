@@ -1,1 +1,0 @@
-CREATE INDEX idx_infection_rate_country ON covid_cases (infection_rate, country);
